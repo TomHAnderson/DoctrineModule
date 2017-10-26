@@ -19,7 +19,7 @@
 
 namespace DoctrineModuleTest;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use PHPUnit_Framework_Assert;
 use PHPUnit_Framework_MockObject_MockObject;
 use DoctrineModule\Module;
@@ -31,7 +31,7 @@ use Symfony\Component\Console\Input\InputInterface;
  * @author Martin Keckeis <martin.keckeis1@gmail.com>
  * @covers \DoctrineModule\Module
  */
-class ModuleTest extends PHPUnit_Framework_TestCase
+class ModuleTest extends TestCase
 {
 
     /**
@@ -57,10 +57,10 @@ class ModuleTest extends PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->application    = $this->getMock('Zend\Mvc\Application', [], [], '', false);
-        $this->event          = $this->getMock('Zend\Mvc\MvcEvent');
-        $this->serviceManager = $this->getMock('Zend\ServiceManager\ServiceManager');
-        $this->cli            = $this->getMock('Symfony\Component\Console\Application', ['run']);
+        $this->application    = $this->createMock('Zend\Mvc\Application', [], [], '', false);
+        $this->event          = $this->createMock('Zend\Mvc\MvcEvent');
+        $this->serviceManager = $this->createMock('Zend\ServiceManager\ServiceManager');
+        $this->cli            = $this->createMock('Symfony\Component\Console\Application', ['run']);
 
         $this
             ->serviceManager
@@ -128,7 +128,7 @@ class ModuleTest extends PHPUnit_Framework_TestCase
 
         $this->assertSame(
             'list - TEST - More output',
-            $module->getConsoleUsage($this->getMock('Zend\Console\Adapter\AdapterInterface'))
+            $module->getConsoleUsage($this->createMock('Zend\Console\Adapter\AdapterInterface'))
         );
     }
 }

@@ -57,7 +57,7 @@
         "zendframework/zend-validator":      "^2.8.1"
     },
     "require-dev": {
-        "phpunit/phpunit":                  "^4.8",
+        "phpunit/phpunit":                  "^5.7 || ^6.4",        
         "squizlabs/php_codesniffer":        "^2.7",
         "zendframework/zend-i18n":          "^2.7.3",
         "zendframework/zend-log":           "^2.9",

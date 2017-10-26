@@ -97,11 +97,11 @@ class ObjectSelectTest extends ProxyAwareElementTestCase
 
     public function testGetValueOptionsDoesntCauseInfiniteLoopIfProxyReturnsEmptyArrayAndValidatorIsInitialized()
     {
-        $element = $this->getMock(get_class($this->element), ['setValueOptions']);
+        $element = $this->createPartialMock(get_class($this->element), ['setValueOptions']);
 
         $options = [];
 
-        $proxy = $this->getMock('DoctrineModule\Form\Element\Proxy');
+        $proxy = $this->createMock('DoctrineModule\Form\Element\Proxy');
         $proxy->expects($this->exactly(2))
               ->method('getValueOptions')
               ->will($this->returnValue($options));
@@ -118,7 +118,7 @@ class ObjectSelectTest extends ProxyAwareElementTestCase
     {
         $options = ['foo' => 'bar'];
 
-        $proxy = $this->getMock('DoctrineModule\Form\Element\Proxy');
+        $proxy = $this->createMock('DoctrineModule\Form\Element\Proxy');
         $proxy->expects($this->once())
               ->method('getValueOptions')
               ->will($this->returnValue($options));
@@ -131,7 +131,7 @@ class ObjectSelectTest extends ProxyAwareElementTestCase
 
     public function testOptionsCanBeSetSingle()
     {
-        $proxy = $this->getMock('DoctrineModule\Form\Element\Proxy');
+        $proxy = $this->createMock('DoctrineModule\Form\Element\Proxy');
         $proxy->expects($this->once())->method('setOptions')->with(['is_method' => true]);
 
         $this->setProxyViaReflection($proxy);
