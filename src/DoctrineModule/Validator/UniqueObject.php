@@ -7,10 +7,6 @@ use Laminas\Validator\Exception;
 
 /**
  * Class that validates if objects exist in a given repository with a given list of matched fields only once.
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @author  Oskar Bley <oskar@programming-php.net>
  */
 class UniqueObject extends ObjectExists
 {

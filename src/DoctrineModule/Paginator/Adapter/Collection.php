@@ -7,11 +7,6 @@ use Laminas\Paginator\Adapter\AdapterInterface;
 
 /**
  * Base module for Doctrine ORM.
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @author  Michaël Gallego <mic.gallego@gmail.com>
- * @author  Marco Pivetta <ocramius@gmail.com>
  */
 class Collection implements AdapterInterface
 {

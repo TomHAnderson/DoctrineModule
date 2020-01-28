@@ -10,9 +10,6 @@ use Symfony\Component\Console\Application;
 
 /**
  * Route matching commands in Symfony CLI
- *
- * @license MIT
- * @author Aleksandr Sandrovskiy <a.sandrovsky@gmail.com>
  */
 class SymfonyCli implements RouteInterface
 {

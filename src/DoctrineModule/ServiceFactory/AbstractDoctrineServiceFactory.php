@@ -10,10 +10,6 @@ use Laminas\ServiceManager\ServiceLocatorInterface;
 /**
  * Abstract service factory capable of instantiating services whose names match the
  * pattern <code>doctrine.$serviceType.$serviceName</doctrine>
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @author  Marco Pivetta <ocramius@gmail.com>
  */
 class AbstractDoctrineServiceFactory implements AbstractFactoryInterface
 {

@@ -2,19 +2,15 @@
 
 namespace DoctrineModule\Service;
 
-use Doctrine\Common\Cache\CacheProvider;
-use Interop\Container\ContainerInterface;
 use RuntimeException;
 use Doctrine\Common\Cache;
+use Doctrine\Common\Cache\CacheProvider;
 use DoctrineModule\Cache\LaminasStorageCache;
+use Interop\Container\ContainerInterface;
 use Laminas\ServiceManager\ServiceLocatorInterface;
 
 /**
  * Cache ServiceManager factory
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @author  Kyle Spraggs <theman@spiffyjr.me>
  */
 class CacheFactory extends AbstractFactory
 {

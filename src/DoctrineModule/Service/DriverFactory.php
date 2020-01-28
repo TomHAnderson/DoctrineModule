@@ -14,10 +14,6 @@ use Laminas\ServiceManager\ServiceLocatorInterface;
 
 /**
  * MappingDriver ServiceManager factory
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @author  Kyle Spraggs <theman@spiffyjr.me>
  */
 class DriverFactory extends AbstractFactory
 {

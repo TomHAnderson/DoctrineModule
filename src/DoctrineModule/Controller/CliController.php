@@ -10,9 +10,6 @@ use DoctrineModule\Component\Console\Input\RequestInput;
 
 /**
  * Index controller
- *
- * @license MIT
- * @author Aleksandr Sandrovskiy <a.sandrovsky@gmail.com>
  */
 class CliController extends AbstractActionController
 {

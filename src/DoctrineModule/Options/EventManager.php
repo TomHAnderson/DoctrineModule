@@ -6,10 +6,6 @@ use Laminas\Stdlib\AbstractOptions;
 
 /**
  * EventManager options
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @author  Kyle Spraggs <theman@spiffyjr.me>
  */
 class EventManager extends AbstractOptions
 {

@@ -10,10 +10,6 @@ use Symfony\Component\Console\Helper\HelperSet;
 
 /**
  * CLI Application ServiceManager factory responsible for instantiating a Symfony CLI application
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @author  Kyle Spraggs <theman@spiffyjr.me>
  */
 class CliFactory implements FactoryInterface
 {

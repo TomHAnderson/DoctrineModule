@@ -10,12 +10,6 @@ use Doctrine\Common\Inflector\Inflector;
 
 /**
  * Authentication adapter that uses a Doctrine object for verification.
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @since   0.5.0
- * @author  Tim Roediger <superdweebie@gmail.com>
- * @author  Michaël Gallego <mic.gallego@gmail.com>
  */
 class ObjectRepository extends AbstractAdapter
 {

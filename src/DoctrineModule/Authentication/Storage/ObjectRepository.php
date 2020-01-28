@@ -7,11 +7,6 @@ use Laminas\Authentication\Storage\StorageInterface;
 
 /**
  * This class implements StorageInterface and allow to save the result of an authentication against an object repository
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @since   0.5.0
- * @author  Michaël Gallego <mic.gallego@gmail.com>
  */
 class ObjectRepository implements StorageInterface
 {

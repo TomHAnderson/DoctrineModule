@@ -12,11 +12,6 @@ use Laminas\Stdlib\ArrayUtils;
 
 /**
  * Factory for creating NoObjectExists instances
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @since   1.3.0
- * @author  Fabian Grutschus <f.grutschus@lubyte.de>
  */
 abstract class AbstractValidatorFactory implements FactoryInterface
 {

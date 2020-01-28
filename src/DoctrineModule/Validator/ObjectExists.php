@@ -9,11 +9,6 @@ use Laminas\Validator\Exception;
 
 /**
  * Class that validates if objects exist in a given repository with a given list of matched fields
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @since   0.4.0
- * @author  Marco Pivetta <ocramius@gmail.com>
  */
 class ObjectExists extends AbstractValidator
 {

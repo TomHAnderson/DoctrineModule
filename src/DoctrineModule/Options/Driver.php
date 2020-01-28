@@ -6,10 +6,6 @@ use Laminas\Stdlib\AbstractOptions;
 
 /**
  * MappingDriver options
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @author  Kyle Spraggs <theman@spiffyjr.me>
  */
 class Driver extends AbstractOptions
 {

@@ -8,11 +8,6 @@ use Laminas\Paginator\Adapter\AdapterInterface;
 
 /**
  * Provides a wrapper around a Selectable object
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @author  Michaël Gallego <mic.gallego@gmail.com>
- * @author  Marco Pivetta <ocramius@gmail.com>
  */
 class Selectable implements AdapterInterface
 {

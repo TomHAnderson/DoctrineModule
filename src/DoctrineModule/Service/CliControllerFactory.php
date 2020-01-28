@@ -12,10 +12,6 @@ use Laminas\ServiceManager\ServiceLocatorInterface;
 
 /**
  * Factory responsible of instantiating an {@see \DoctrineModule\Controller\CliController}
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @author  Marco Pivetta <ocramius@gmail.com>
  */
 class CliControllerFactory implements FactoryInterface
 {

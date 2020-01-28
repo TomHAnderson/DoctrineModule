@@ -41,11 +41,6 @@ use Laminas\Stdlib\AbstractOptions;
  * All remains the same using with DoctrineModule\Service\AuthenticationStorageFactory,
  * however, a string may be passed to $objectManager. This string must be a valid key to
  * retrieve an ObjectManager instance from the ServiceManager.
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @since   0.5.0
- * @author  Michaël Gallego <mic.gallego@gmail.com>
  */
 class Authentication extends AbstractOptions
 {

@@ -8,11 +8,6 @@ use DoctrineModule\Validator\ObjectExists;
 
 /**
  * Factory for creating ObjectExists instances
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @since   1.3.0
- * @author  Fabian Grutschus <f.grutschus@lubyte.de>
  */
 class ObjectExistsFactory extends AbstractValidatorFactory
 {

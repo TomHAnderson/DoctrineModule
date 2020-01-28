@@ -6,10 +6,6 @@ use Laminas\Stdlib\AbstractOptions;
 
 /**
  * Cache options
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @author  Kyle Spraggs <theman@spiffyjr.me>
  */
 class Cache extends AbstractOptions
 {

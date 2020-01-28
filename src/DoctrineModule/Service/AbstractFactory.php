@@ -8,10 +8,6 @@ use Laminas\ServiceManager\Factory\FactoryInterface;
 
 /**
  * Base ServiceManager factory to be extended
- *
- * @license MIT
- * @link    http://www.doctrine-project.org/
- * @author  Kyle Spraggs <theman@spiffyjr.me>
  */
 abstract class AbstractFactory implements FactoryInterface
 {

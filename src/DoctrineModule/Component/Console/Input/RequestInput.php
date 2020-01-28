@@ -8,9 +8,6 @@ use Symfony\Component\Console\Input\InputDefinition;
 
 /**
  * RequestInput represents an input provided as an console request.
- *
- * @license MIT
- * @author Aleksandr Sandrovskiy <a.sandrovsky@gmail.com>
  */
 class RequestInput extends ArgvInput
 {

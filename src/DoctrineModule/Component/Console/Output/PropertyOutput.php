@@ -7,9 +7,6 @@ use Symfony\Component\Console\Formatter\OutputFormatterInterface;
 
 /**
  * Output writing in class member variable
- *
- * @license MIT
- * @author Aleksandr Sandrovskiy <a.sandrovsky@gmail.com>
  */
 class PropertyOutput extends Output
 {
